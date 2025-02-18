@@ -1,0 +1,8 @@
+.uploadButton{
+    display: inline-block;
+    background-color: blue;
+}
+
+.hidden{
+    display:none;
+}
