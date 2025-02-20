@@ -9,14 +9,11 @@
 <body>
     <h2> Split Release</h2>
     <p>Please, import your .BPRelease release</p>
-    <input type="file" id="fileInput" class="hidden"></input>
     
-    <br>
-    <label for="fileInput" class="uploadButton">Import File</label>
-    <br>
+    <input type="file" id="fileInput" accept=".bprelease">
+    <p id="output"></p> <!-- Muestra el XML en pantalla -->
 
     <p id="fileName"></p>
-
     <script src="/script.js"></script>
 </body>
 </html>
